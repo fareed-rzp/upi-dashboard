@@ -1,0 +1,51 @@
+# .github/workflows/scrape-upi-data.yml
+# This GitHub Action runs automatically every day and scrapes fresh data
+
+name: 🏦 UPI Data Scraper
+
+on:
+  schedule:
+    - cron: '0 6 * * *'  # Runs daily at 6 AM UTC (11:30 AM IST)
+  workflow_dispatch:     # Allows manual trigger
+  push:
+    branches: [ main ]
+
+jobs:
+  scrape-and-deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: 📥 Checkout Repository
+      uses: actions/checkout@v3
+      
+    - name: 🐍 Setup Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+        
+    - name: 📦 Install Dependencies
+      run: |
+        pip install requests beautifulsoup4 pandas lxml selenium
+        # Install Chrome for Selenium
+        wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+        sudo apt-get update
+        sudo apt-get install google-chrome-stable
+        
+    - name: 🕷️ Run UPI Data Scraper
+      run: python scraper.py
+      
+    - name: 📊 Update Dashboard Data
+      run: python update_data.py
+      
+    - name: 🚀 Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./docs
+        
+    - name: 📧 Send Success Notification
+      if: success()
+      run: |
+        echo "✅ UPI Dashboard updated successfully!"
+        echo "📊 Data scraped at: $(date)"
+        echo "🌐 Live at: https://${{ github.repository_owner }}.github.io/upi-dashboard"
