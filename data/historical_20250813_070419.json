@@ -1,0 +1,190 @@
+{
+  "topApps": [
+    {
+      "name": "Phone Pe",
+      "volume": 8547.04,
+      "value": 1198690.03
+    },
+    {
+      "name": "Google Pay",
+      "volume": 6540.92,
+      "value": 840931.06
+    },
+    {
+      "name": "Paytm",
+      "volume": 1269.16,
+      "value": 134171.16
+    },
+    {
+      "name": "Navi",
+      "volume": 406.01,
+      "value": 21814.51
+    },
+    {
+      "name": "super.money",
+      "volume": 218.96,
+      "value": 7716.48
+    },
+    {
+      "name": "Cred",
+      "volume": 138.32,
+      "value": 51384.11
+    },
+    {
+      "name": "Axis Bank Apps",
+      "volume": 126.27,
+      "value": 9388.51
+    },
+    {
+      "name": "FamApp by Trio",
+      "volume": 112.75,
+      "value": 1439.64
+    }
+  ],
+  "topBanks": [
+    {
+      "name": "State Bank of India",
+      "volume": 5214.74
+    },
+    {
+      "name": "HDFC Bank Ltd.",
+      "volume": 1543.98
+    },
+    {
+      "name": "Bank of Baroda",
+      "volume": 1328.01
+    },
+    {
+      "name": "Union Bank of India",
+      "volume": 1200.25
+    },
+    {
+      "name": "Punjab National Bank",
+      "volume": 1106.8
+    },
+    {
+      "name": "Kotak Mahindra Bank",
+      "volume": 960.38
+    },
+    {
+      "name": "Canara Bank",
+      "volume": 942.67
+    },
+    {
+      "name": "Axis Bank Ltd.",
+      "volume": 875.5
+    },
+    {
+      "name": "ICICI Bank Ltd.",
+      "volume": 735.99
+    }
+  ],
+  "merchantCategories": [
+    {
+      "category": "Groceries and supermarkets",
+      "volume": 3032.59,
+      "value": 64881.98
+    },
+    {
+      "category": "1,221.46",
+      "volume": 13794.22,
+      "value": 0
+    },
+    {
+      "category": "1,153.40",
+      "volume": 18212.77,
+      "value": 0
+    },
+    {
+      "category": "871.88",
+      "volume": 21628.8,
+      "value": 0
+    },
+    {
+      "category": "612.49",
+      "volume": 35188.88,
+      "value": 0
+    },
+    {
+      "category": "351.24",
+      "volume": 10076.56,
+      "value": 0
+    },
+    {
+      "category": "321.84",
+      "volume": 1900.46,
+      "value": 0
+    },
+    {
+      "category": "261.93",
+      "volume": 3778.91,
+      "value": 0
+    },
+    {
+      "category": "297.41",
+      "volume": 11824.93,
+      "value": 0
+    },
+    {
+      "category": "174.72",
+      "volume": 23497.63,
+      "value": 0
+    }
+  ],
+  "stateData": [
+    {
+      "state": "MAHARASHTRA",
+      "volume": 1905.45,
+      "value": 230572.42
+    },
+    {
+      "state": "KARNATAKA",
+      "volume": 1067.74,
+      "value": 144605.61
+    },
+    {
+      "state": "UTTAR PRADESH",
+      "volume": 1031.94,
+      "value": 131885.79
+    },
+    {
+      "state": "TELANGANA",
+      "volume": 791.46,
+      "value": 126739.73
+    },
+    {
+      "state": "TAMIL NADU",
+      "volume": 778.83,
+      "value": 117090.44
+    },
+    {
+      "state": "ANDHRA PRADESH",
+      "volume": 535.33,
+      "value": 93508.25
+    },
+    {
+      "state": "RAJASTHAN",
+      "volume": 527.21,
+      "value": 76044.26
+    },
+    {
+      "state": "GUJARAT",
+      "volume": 501.34,
+      "value": 74010.9
+    },
+    {
+      "state": "DELHI",
+      "volume": 468.19,
+      "value": 58845.62
+    }
+  ],
+  "month": "Jul-25",
+  "totalVolume": 19467.95,
+  "totalValue": 2508498.09,
+  "p2pVolume": 7079.843,
+  "p2pValue": 1774485.73,
+  "p2mVolume": 12388.11,
+  "p2mValue": 734012.36,
+  "lastUpdated": "2025-08-13T07:04:19.942088",
+  "scrapedAt": "2025-08-13 07:04:19"
+}
