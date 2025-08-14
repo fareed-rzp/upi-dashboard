@@ -1,5 +1,5 @@
 // Auto-generated historical UPI data
-// Last updated: 2025-08-13T07:04:40.135137
+// Last updated: 2025-08-14T06:34:59.605020
 
 const historicalUPIData = {
   "Jul-25": {
@@ -85,7 +85,7 @@ const historicalUPIData = {
     ],
     "merchantCategories": [
       {
-        "category": "Groceries and supermarkets",
+        "category": "Groceries And Supermarkets",
         "volume": 3032.59,
         "value": 64881.98
       },
@@ -120,18 +120,18 @@ const historicalUPIData = {
         "value": 0
       },
       {
-        "category": "261.93",
-        "volume": 3778.91,
-        "value": 0
-      },
-      {
         "category": "297.41",
         "volume": 11824.93,
         "value": 0
       },
       {
-        "category": "174.72",
-        "volume": 23497.63,
+        "category": "261.93",
+        "volume": 3778.91,
+        "value": 0
+      },
+      {
+        "category": "178.32",
+        "volume": 4372.84,
         "value": 0
       }
     ],
@@ -189,8 +189,8 @@ const historicalUPIData = {
     "p2pValue": 1774485.73,
     "p2mVolume": 12388.11,
     "p2mValue": 734012.36,
-    "lastUpdated": "2025-08-13T07:04:39.867326",
-    "scrapedAt": "2025-08-13 07:04:39"
+    "lastUpdated": "2025-08-14T06:34:59.342597",
+    "scrapedAt": "2025-08-14 06:34:59"
   }
 };
 
