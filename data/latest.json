@@ -2,43 +2,43 @@
   "topApps": [
     {
       "name": "Phone Pe",
-      "volume": 8547.04,
-      "value": 1198690.03
+      "volume": 8931.24,
+      "value": 1220140.68
     },
     {
       "name": "Google Pay",
-      "volume": 6540.92,
-      "value": 840931.06
+      "volume": 6922.92,
+      "value": 891297.38
     },
     {
       "name": "Paytm",
-      "volume": 1269.16,
-      "value": 134171.16
+      "volume": 1366.05,
+      "value": 143650.62
     },
     {
       "name": "Navi",
-      "volume": 406.01,
-      "value": 21814.51
+      "volume": 444.06,
+      "value": 23562.51
     },
     {
       "name": "super.money",
-      "volume": 218.96,
-      "value": 7716.48
+      "volume": 252.85,
+      "value": 9018.71
     },
     {
       "name": "Cred",
-      "volume": 138.32,
-      "value": 51384.11
-    },
-    {
-      "name": "Axis Bank Apps",
-      "volume": 126.27,
-      "value": 9388.51
+      "volume": 144.38,
+      "value": 55259.9
     },
     {
       "name": "FamApp by Trio",
-      "volume": 112.75,
-      "value": 1439.64
+      "volume": 125.0,
+      "value": 1563.58
+    },
+    {
+      "name": "Axis Bank Apps",
+      "volume": 123.44,
+      "value": 9773.39
     }
   ],
   "topBanks": [
@@ -185,6 +185,6 @@
   "p2pValue": 1774485.73,
   "p2mVolume": 12388.11,
   "p2mValue": 734012.36,
-  "lastUpdated": "2025-08-14T06:34:59.342597",
-  "scrapedAt": "2025-08-14 06:34:59"
+  "lastUpdated": "2025-08-15T06:34:15.821496",
+  "scrapedAt": "2025-08-15 06:34:15"
 }
