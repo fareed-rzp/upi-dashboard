@@ -1,8 +1,8 @@
 // Auto-generated historical UPI data
-// Last updated: 2025-09-02T06:32:42.550341
+// Last updated: 2025-09-03T06:29:55.186008
 
 const historicalUPIData = {
-  "Jul-25": {
+  "Aug-25": {
     "topApps": [
       {
         "name": "Phone Pe",
@@ -182,15 +182,15 @@ const historicalUPIData = {
         "value": 58845.62
       }
     ],
-    "month": "Jul-25",
-    "totalVolume": 19467.95,
-    "totalValue": 2508498.09,
-    "p2pVolume": 7079.843,
-    "p2pValue": 1774485.73,
-    "p2mVolume": 12388.11,
-    "p2mValue": 734012.36,
-    "lastUpdated": "2025-09-02T06:32:42.287439",
-    "scrapedAt": "2025-09-02 06:32:42"
+    "month": "Aug-25",
+    "totalVolume": 20008.31,
+    "totalValue": 2485472.91,
+    "p2pVolume": 7303.15,
+    "p2pValue": 1761675.49,
+    "p2mVolume": 12705.16,
+    "p2mValue": 723797.42,
+    "lastUpdated": "2025-09-03T06:29:54.911277",
+    "scrapedAt": "2025-09-03 06:29:54"
   }
 };
 
