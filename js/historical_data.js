@@ -1,5 +1,5 @@
 // Auto-generated historical UPI data
-// Last updated: 2025-10-02T06:31:00.324121
+// Last updated: 2025-10-03T06:30:40.351745
 
 const historicalUPIData = {
   "Aug-25": {
@@ -189,8 +189,8 @@ const historicalUPIData = {
     "p2pValue": 1761675.49,
     "p2mVolume": 12705.16,
     "p2mValue": 723797.42,
-    "lastUpdated": "2025-10-02T06:31:00.052246",
-    "scrapedAt": "2025-10-02 06:31:00"
+    "lastUpdated": "2025-10-03T06:30:40.070106",
+    "scrapedAt": "2025-10-03 06:30:40"
   }
 };
 
